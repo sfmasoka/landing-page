@@ -1,0 +1,58 @@
+body{
+    margin:0;
+}
+
+/*--------- header styles --------*/
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    background-color: #1f2937;
+}
+
+.logo{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+
+header>ul{
+    list-style-type: none;
+    display:flex;
+    gap:16px;
+}
+
+a{
+    text-decoration: none;
+    color:#e5e7eb;
+}
+
+/*--------- banner styles --------*/
+.banner{
+    display:flex;
+    justify-content: center;
+}
+
+.description{
+    display:flex;
+    flex-direction: column;
+}
+
+.banner-img{
+    display:flex;
+}
+
+/*--------- footer styles --------*/
+
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 60px;
+    background-color: #1f2937;
+}
+
+footer>p{
+    color:#e5e7eb;
+}
