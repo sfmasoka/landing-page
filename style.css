@@ -85,7 +85,7 @@ a{
     display: flex;
     justify-content: center;
     gap:64px;
-
+    flex-wrap: wrap;
 }
 
 .block-text{
@@ -116,7 +116,7 @@ a{
 
 .quote>p
 {
-    width:600px;
+    max-width:600px;
     color: #1f2937;
     font-style: italic;
     font-size: 30px;
@@ -125,7 +125,7 @@ a{
 .q{
     display:flex;
     justify-content: flex-end;
-    width:600px;
+    /*width: 600px;*/
     font-size:18px;
     font-weight: bold;
 }
